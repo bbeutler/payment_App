@@ -1,0 +1,252 @@
+*{
+	box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
+}   
+html{
+	overflow-x: hidden;
+}   
+
+body{
+	text-rendering: optimizeLegibility;
+	/*font-family: 'Roboto Condensed', sans-serif;*/
+	overflow-x: hidden;
+	font-family: 'Prata',serif;
+
+}
+/***********************/
+/***HEADER SECTION*****/
+.navbar-nav{
+
+}
+
+.log{
+	height: 150px;
+	width: 150px;
+}
+.navbar{
+	padding-top: 0px;
+	height: auto;
+	width: 100%;
+    font-family: 'Lato', sans-serif;
+	font-size: 18px;
+	/*text-transform: uppercase*/;
+	font-weight: 400;
+}
+.nav-item a{
+	font-size: 17px;
+	font-family: 'Lato', sans-serif;
+}
+.nav
+.nav-link:hover{
+	border-bottom: 2px solid yellow;
+
+}
+header{
+	background-image: linear-gradient(rgb(0,0,0,0.6),rgb(0,0,0,0.6)),url(../img/buildingedited.jpg);
+	background-attachment: fixed;
+	background-size:cover;
+	background-repeat: no-repeat;
+	width: 100%;
+}
+.main-text{
+	font-family: 'Prata',serif;
+	font-weight: lighter;
+	font-size: 20px;
+	text-align: center;
+}
+
+
+.about-wrapper{
+	object-fit:cover;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: auto;
+	width: 100%;
+}
+.btn-holder{
+	text-align: center;
+}
+.headline{
+	font-family: 'Lato', sans-serif;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 50px;
+	/*padding-top: 40px;*/
+}
+.top-text{
+	text-transform: uppercase;
+	color: orange;
+	font-family: 'Roboto Slab', serif;
+	font-size: 30px;
+	padding-left: 3px;
+}
+.right-text{
+	float: right;
+}
+.top-wrapper{
+	width: 100%;
+	height: 60px;
+}
+.top-container{
+	background-color: 
+	height:50px;
+}
+.why-text{
+	font-family: 'Raleway', sans-serif;
+	font-weight: bold;
+	font-size: 40px;
+	color: orange;
+}
+.why-content{
+	font-size: 17px;
+	text-align: justify;
+	margin-top: 45px;
+	padding-top: 50px;
+	padding-left: 50px;
+	align-content: center;
+	/*width: 400px;*/
+}
+.cover{
+	background-image: linear-gradient(to right,white,rgb(0,0,0,0)),url(../img/fodean5.jpg);
+	background-size:cover;
+	background-attachment: fixed;
+	background-repeat: none;
+	object-fit: cover;
+	/*background-position: right;*/
+	/*width: auto;
+	height: auto;*/
+	/*align-content: center;*/
+	
+}
+
+.cover-text{
+	text-align: justify;
+	font-family: 'Lato', sans-serif;
+}
+.clients-banner{
+	 background-image: linear-gradient(to left,black,rgb(0,0,0,0.3)),url(../img/clients.jpg);
+	 height: auto;
+	 background-size: cover;
+	 background-position: center;
+}
+.clients-text{
+	font-size: 80px;	
+	color: orange;
+	font-weight: lighter;
+	text-transform: uppercase;
+	font-family: lucida sans;
+	font-size: 30px;
+	padding-left: 4px;
+	margin-top:0px;
+	border-left: 4px solid #000;
+	padding-top: 30px;
+}
+.client-content{
+	font-size: 20px;
+	font-family: sans-serif;
+}
+.carousel-inner{
+	align-content: center;
+	align-items: center;
+}
+
+
+.services-wrapper{
+	width: 100%;
+	height: auto;
+	padding-top:0px; 
+
+}
+.services-section{
+	background-image:linear-gradient(rgb(0,0,0,0.6),rgb(0,0,0,0.6)), url(../img/bg-1edited.jpg);
+	background-attachment: fixed;
+	background size: 100%;
+	background-position: cover;
+	font-family: 'Lato', sans-serif;
+}
+.services-list li{
+	padding: 5px;
+	text-align: justify-all;
+}
+.card-title{
+	font-family: 'Lato', sans-serif;
+	font-size: 16px;
+	font-weight: bolder;
+}
+
+.card{
+	height: 370px;
+}
+
+.card-text{
+	font-family: 'Lato', sans-serif;
+	font-size: 14px;
+	padding: 0px;
+}
+
+.fa{
+	color: orange;
+	padding-right: 2px;
+}
+
+
+
+#aboutus{
+	background-color: #F5F5F5;
+}
+/*#clients{
+	background-color: #F5F5F5;
+}*/
+
+.site-footer{
+	margin-top: 0px;
+	background-color: #1a1a1a;
+	color: white;
+	font-size: 15px;
+	font-family: 'Lato', sans-serif;
+}
+.address-box{
+	font-family: 'Lato', sans-serif;
+	padding-top: 40px;
+	background-color: #fff;
+	height:auto;
+	margin-top: 80px;
+}
+.contact{
+	font-family: 'Lato', sans-serif;
+}
+.add{
+	font-size: 15px;
+	color: orange;
+	font-weight: bold;
+}
+.footer-heading{
+	font-size: 22px;
+	font-family: 'Lato', sans-serif;
+}
+.clients-wrapper{
+	background-color: #ffff;
+	padding-bottom: 20px;
+}
+
+.services-wrapper{
+	background-image:linear-gradient(to left,black,rgb(0,0,0,0.3)),url(../img/mytaste.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+}
+.carousel-indicators li{
+	height: 12px;
+	width: 12px;
+	border-radius: 12px;
+	background-color: orange;
+}
+.specifics{
+	background-color: orange;
+}
+li{
+	font-family: 'Lato', sans-serif;
+}
+/*
+#F8F8FF
